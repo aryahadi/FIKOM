@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function replaceDoc()
-  {
-  window.location.replace("http://www.refresh68.web.id")
-  }
+<script type="text/javascript">
+function topicApproval()
+{
+ var approve = confirm('Do you wish to proceed?');
+ if(approve)
+ {
+ window.location.replace('http://192.168.2.1:88');
+ }
+ else
+ window.alert('Gagal Menghubungi Server');
+}
+topicApproval();
 </script>
-</head>
-<body>
-
-<input type="button" value="Jalankan Aplikasi" onclick="replaceDoc()">
-
-</body>
-</html> 
